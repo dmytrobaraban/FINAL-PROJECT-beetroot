@@ -1,0 +1,42 @@
+.testimonials {
+  background-color: $bg;
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.pagination {
+  padding-top: 30px;
+}
+
+.rating-star i {
+  color: #f0932b;
+  font-size: 20px;
+  margin: 0 2px;
+  display: inline-block;
+}
+
+.swiper-slide {
+  background-color: #fff;
+  border: 3px solid #e6f0fa;
+  padding: 50px 30px 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.client img {
+  width: 100%;
+  width: 75px;
+  border-radius: 50%;
+}
+.client {
+  margin: 0 auto;
+  &-about {
+    padding-left: 50px;
+  }
+}
+
+.slide-client {
+  max-width: 576px;
+}

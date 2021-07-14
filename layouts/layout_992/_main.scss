@@ -1,0 +1,20 @@
+.cont-info {
+  align-items: baseline;
+  &_item {
+    display: flex;
+  }
+}
+
+.cont-info_item > li {
+  margin-left: 20px;
+}
+
+.main {
+  &-content {
+    align-self: center;
+    &_header {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+}

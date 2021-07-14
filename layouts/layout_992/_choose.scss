@@ -1,0 +1,36 @@
+.choose-item-h {
+  font-size: 23px;
+  margin-bottom: 0;
+}
+
+.choose-items p {
+  padding-left: 50px;
+}
+
+.choose-item-text {
+  max-width: 750px;
+  padding: 0;
+}
+
+.choose {
+  margin: 0 20px 40px;
+}
+
+.choose-all {
+  margin: 0 auto;
+}
+
+.choose-items {
+  display: grid;
+  grid-template-columns: 280px 280px;
+  gap: 20px;
+}
+
+.choose-item {
+  padding: 0;
+}
+
+.choose-container {
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}

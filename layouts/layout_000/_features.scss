@@ -1,0 +1,57 @@
+.features {
+  background-color: $bg;
+  text-align: center;
+  padding: 80px 40px;
+  &-img {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    animation: animation-jump 2s ease infinite;
+  }
+}
+
+.features img {
+  max-width: 200px;
+}
+
+.features-item i {
+  color: $orange;
+  font-size: 44px;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+@keyframes animation-jump {
+  0% {
+    transform: translate3d(0, -5%, 0);
+  }
+  10% {
+    transform: translate3d(0, -4%, 0);
+  }
+  20% {
+    transform: translate3d(0, 0%, 0);
+  }
+  30% {
+    transform: translate3d(0, 3%, 0);
+  }
+  40% {
+    transform: translate3d(0, 4%, 0);
+  }
+  50% {
+    transform: translate3d(0, 5%, 0);
+  }
+  60% {
+    transform: translate3d(0, 4%, 0);
+  }
+  70% {
+    transform: translate3d(0, 3%, 0);
+  }
+  80% {
+    transform: translate3d(0, 0%, 0);
+  }
+  90% {
+    transform: translate3d(0, -4%, 0);
+  }
+  100% {
+    transform: translate3d(0, -5%, 0);
+  }
+}

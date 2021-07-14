@@ -1,0 +1,42 @@
+.product {
+  background-color: $bg;
+  padding: 60px 40px;
+  &-block {
+    margin: auto;
+  }
+  &-item {
+    animation: animation-jump 2s ease-out infinite;
+  }
+  &-img {
+    width: 230px;
+    transition: transform 1s;
+  }
+
+  &-text {
+    text-align: center;
+    &_1 {
+      font-weight: 600;
+      font-size: 24px;
+      font-family: $fontFamilyH;
+    }
+    &_2 {
+      font-weight: 600;
+      font-size: 20px;
+      color: #3b04db;
+      margin: 10px 0 0;
+      font-family: $fontFamilyP;
+    }
+  }
+  &-btn {
+    display: inline-block;
+    margin: 25px 0 0;
+    background-color: #ff5740;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 4px;
+  }
+}
+
+.product-img:hover {
+  transform: scale(1.1);
+}

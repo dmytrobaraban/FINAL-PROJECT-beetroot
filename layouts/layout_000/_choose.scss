@@ -1,0 +1,37 @@
+.choose-item-text {
+  text-align: left;
+  vertical-align: bottom;
+  padding-left: 20px;
+}
+
+.choose-item-h {
+  font-size: 23px;
+  margin-top: 0;
+}
+
+.choose-items p {
+  padding-left: 50px;
+}
+
+.choose {
+  margin: 50px 0;
+}
+
+.choose-item i {
+  color: $orange;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.choose-container {
+  margin: 50px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.watch {
+  margin: 0 auto;
+}
+.watch img {
+  max-width: 100%;
+}

@@ -1,0 +1,14 @@
+@mixin FWsize($fw, $fs) {
+  font-weight: #{$fw};
+  font-size: #{$fs}px;
+}
+
+@mixin pBtop($pb, $pt) {
+  padding-bottom: #{$pb}px;
+  padding-top: #{$pt}px;
+}
+
+@mixin wH($wh, $ht) {
+  width: #{$wh}px;
+  height: #{$ht}px;
+}

@@ -1,0 +1,27 @@
+.about {
+  padding: 0 50px 50px;
+  &-item {
+    padding: 0 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.about-item-text {
+  font-size: 28px;
+}
+
+.about-text {
+  max-width: 730px;
+  &_first {
+    @include FWsize(600, 16);
+    color: #ff6348;
+    text-transform: uppercase;
+  }
+  &_second {
+    @include FWsize(700, 50);
+  }
+}
+
+.about p {
+  font-size: 18px;
+}

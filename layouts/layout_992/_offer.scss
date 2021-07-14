@@ -1,0 +1,13 @@
+.offer-item {
+  padding: 40px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  &_img {
+    width: 150px;
+  }
+}
+
+.offer-item:nth-child(1) {
+  margin-right: 20px;
+}

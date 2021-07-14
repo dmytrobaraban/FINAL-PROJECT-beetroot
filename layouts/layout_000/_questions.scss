@@ -1,0 +1,27 @@
+.questions {
+  text-align: center;
+  padding: 40px 90px;
+}
+
+.box {
+  &-dt {
+    text-align: left;
+    @include FWsize(600, 25);
+    font-family: $fontFamilyH;
+    line-height: 35px;
+  }
+  &-dd {
+    text-align: left;
+    @include FWsize(400, 16);
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #3c6382;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .box-dd {
+    font-size: 18px;
+  }
+}

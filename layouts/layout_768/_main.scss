@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+  &-content {
+    text-align: inherit;
+    width: 590px;
+  }
+}
+
+.cont-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  padding-right: 40px;
+}
+
+.cont-info_item > li {
+  text-align: left;
+}
+.man {
+  padding-left: 20px;
+}

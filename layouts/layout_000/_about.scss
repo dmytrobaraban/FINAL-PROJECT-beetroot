@@ -1,0 +1,33 @@
+.about {
+  text-align: center;
+  padding: 85px 15px 40px;
+  &-item {
+    padding: 0 50px;
+    margin-bottom: 50px;
+  }
+}
+.about-text {
+  max-width: 510px;
+  margin: 0 auto;
+  &_first {
+    font-family: $fontFamilyH;
+    @include FWsize(600, 14);
+    color: $orange;
+    text-transform: uppercase;
+  }
+}
+.about-text_second {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.about-item i {
+  color: $orange;
+  font-size: 60px;
+  margin: 0 0 25px;
+}
+.about-item-text {
+  font-size: 24px;
+  font-family: $fontFamilyH;
+}

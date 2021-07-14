@@ -1,0 +1,80 @@
+.offer {
+  padding: 40px;
+}
+
+.about-text_offer {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.offer-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-item {
+  text-align: center;
+  background-color: $bg;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 40px 20px;
+
+  &-text1 {
+    @include FWsize(600, 16);
+    font-family: $fontFamilyH;
+    text-transform: uppercase;
+    color: $orange;
+    margin: 15px 0;
+  }
+  &-text2 {
+    font-size: 40px;
+    font-family: $fontFamilyH;
+    margin: 15px 0;
+  }
+  &_img {
+    width: 250px;
+  }
+  &-btn {
+    display: inline-block;
+    color: $white;
+    background-color: $orange;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
+
+.offer-item_block {
+  padding-top: 20px;
+  animation: animation-jump 2s ease-in-out infinite;
+}
+
+.timer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  background-color: $bg;
+  border: 3px solid #f0ead8;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 10px rgba(255, 222, 127, 0.3);
+  &-h {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $fontFamilyH;
+    color: $orange;
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+  &-span {
+    @include FWsize(700, 24);
+    font-family: $fontFamilyP;
+    color: #ff0000;
+  }
+}
+
+.timer h3 {
+  text-transform: uppercase;
+  font-family: $fontFamilyH;
+  font-weight: 700;
+}

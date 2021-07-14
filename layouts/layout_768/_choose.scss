@@ -1,0 +1,43 @@
+.choose-item-text {
+  text-align: left;
+  vertical-align: bottom;
+  padding-left: 20px;
+}
+
+.choose-item-h {
+  font-size: 23px;
+  margin-bottom: 0;
+}
+
+.choose-items p {
+  padding-left: 50px;
+}
+
+.choose {
+  margin: 0 auto;
+  &-item {
+    padding-left: 2rem;
+  }
+}
+
+.choose p {
+  font-size: 18px;
+}
+
+.choose-item i {
+  color: #ff6348;
+  font-size: 30px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.choose-container {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.watch {
+  margin: auto;
+}
